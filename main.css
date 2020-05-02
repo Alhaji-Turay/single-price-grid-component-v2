@@ -1,0 +1,100 @@
+:root {
+   box-sizing: border-box;
+  }
+
+  *,
+  ::before,
+  ::after {
+   box-sizing: inherit;
+}
+
+
+
+
+
+body {
+   font-family: 'Karla', sans-serif;
+   margin: 0;
+}
+
+
+.header-container {
+   padding: 0 40px;
+}
+
+header {
+   max-height: 215px;
+}
+
+header h1 {
+   color: #2dbdb4;
+}
+
+header span  {
+ color:  #bfdf32; 
+ font-size: 20px;
+ font-weight: 700;
+}
+
+header p {
+   color: #b3b7c2;
+   line-height: 28px;
+   font-size: 16px;
+}
+
+
+.section-container {
+   display: flex;
+}
+
+.section-left 
+{
+   width: 50%;
+   max-height: 255px;
+   background:  #2bb3b1;
+}
+
+.signup-btn {
+   margin-top: 30px;
+}
+
+button {
+   width: 230px;
+   border: none;
+   cursor: pointer;
+   padding: 20px 0;
+   background-color:  #bfdf32;
+   color: white;
+   font-size: 20px;
+}
+
+.section-right
+{
+   width: 50%;
+   max-height: 40vh;
+   color: white;
+  background-color:  #4abebd;
+}
+
+.section-right li {
+   margin-top: 5px;
+}
+
+.section-left {
+   padding-left: 40px;
+   color: white;
+   padding-bottom: 215px;
+}
+
+
+.section-right  li {
+   list-style: none;
+}
+
+.section-right h3  {
+   padding-left: 40px;
+}
+
+.section-right li {
+   padding-left: 40px;
+}

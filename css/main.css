@@ -1,0 +1,94 @@
+:root {
+   box-sizing: border-box;
+  }
+
+  *,
+  ::before,
+  ::after {
+   box-sizing: inherit;
+}
+
+body {
+   font-family: 'Karla', sans-serif;
+   margin: 0;
+}
+
+.main-header {
+   padding-top: 2.8125em ;
+   padding-bottom: 2.8125em;
+   padding-left: 2.1875em;
+   padding-right: 4.6875em;
+}
+ 
+
+.header__title {
+   color: #2bb3b1;
+}
+
+.highlighted-promise {
+   color: #bfdf32;
+}
+
+.header__info {
+   color: #b9b8bd;
+   max-width: 900px;
+   line-height: 1.4;
+}
+
+.contain {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+}
+
+.subscription  {
+   background-color: #2bb3b1;
+   width: 50%;
+   padding: 2.5em;
+   color: #fbf5ff;
+}
+
+.subscription__title {
+   font-size: 1.6rem;
+}
+
+.subscription__price {
+   font-size: 1.4rem;
+}
+
+.subscription__description {
+   font-size: 1.2rem;
+}
+
+.cta {
+   background-color: #4abebd;
+   width: 50%;
+   color: #fbf5ff;
+   padding: 2.5em;
+}
+
+.cta__title {
+   font-size: 1.6rem;
+}
+
+.cta__item {
+   list-style: none;
+   margin-top: .5em;
+}
+
+
+
+.signup-btn .button {
+   background-color: #bfdf32;
+   color: white;
+   border: none;
+   padding: 1.25em 5em;
+   border-radius: 5px;
+   font-size: 1.3rem;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+
+
+
